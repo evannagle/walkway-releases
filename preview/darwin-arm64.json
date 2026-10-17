@@ -1,0 +1,27 @@
+{
+  "currentRelease": "0.1.2",
+  "releases": [
+    {
+      "version": "0.1.1",
+      "updateTo": {
+        "version": "0.1.1",
+        "name": "Walkway 0.1.1",
+        "url": "https://github.com/evannagle/walkway-releases/releases/download/v0.1.1/Walkway-0.1.1-macOS-arm64.zip",
+        "notes": "Signed and notarized Walkway preview for Apple silicon Macs.\n\nThis release establishes the preview update channel. Versions 0.1.1 and 0.1.2 use the same tested application code; 0.1.2 verifies delivery of a newer signed version.\n\nDownload the ZIP, extract Walkway.app, and move it to Applications. Keep your existing app until you have finished active work. Existing unsigned previews need this one-time manual installation. Signed builds can use **Walkway \u2192 Check for Update**.\n\nSHA256SUMS is included for download verification. These are early previews; broader compatibility and workflow testing is still ongoing.\n",
+        "sha256": "8bed72c5fd0f7cd1319a112124eb6a48b2f75b991ba4825806ffacc261475df5",
+        "size": 391858088
+      }
+    },
+    {
+      "version": "0.1.2",
+      "updateTo": {
+        "version": "0.1.2",
+        "name": "Walkway 0.1.2",
+        "url": "https://github.com/evannagle/walkway-releases/releases/download/v0.1.2/Walkway-0.1.2-macOS-arm64.zip",
+        "notes": "Signed and notarized Walkway preview for Apple silicon Macs.\n\nThis release establishes the preview update channel. Versions 0.1.1 and 0.1.2 use the same tested application code; 0.1.2 verifies delivery of a newer signed version.\n\nDownload the ZIP, extract Walkway.app, and move it to Applications. Keep your existing app until you have finished active work. Existing unsigned previews need this one-time manual installation. Signed builds can use **Walkway \u2192 Check for Update**.\n\nSHA256SUMS is included for download verification. These are early previews; broader compatibility and workflow testing is still ongoing.\n",
+        "sha256": "f77d229beacf7e9432841bdf5b8b9a2142dd3039d4ff3434ab9632af0d2ed704",
+        "size": 391858073
+      }
+    }
+  ]
+}
