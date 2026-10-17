@@ -1,5 +1,5 @@
 {
-  "currentRelease": "0.1.3",
+  "currentRelease": "0.1.4",
   "releases": [
     {
       "version": "0.1.1",
@@ -21,6 +21,17 @@
         "notes": "Signed and notarized Walkway preview for Apple silicon Macs.\n\nFixes packaged runtime permissions so the app remains readable after a privileged native update. Version 0.1.2 was withdrawn after this issue was found during update verification.\n\nDownload the ZIP, extract Walkway.app, and move it to Applications after finishing active work. Existing unsigned previews require this one-time manual installation. Signed builds use **Walkway → Check for Update**.\n\nSHA256SUMS is included. This is an early preview; broader compatibility and workflow testing remains ongoing.\n",
         "sha256": "39082f80ec947b960650bf6c4bd24085eab5d46a10b585698f6e9393d0a47c1c",
         "size": 391858087
+      }
+    },
+    {
+      "version": "0.1.4",
+      "updateTo": {
+        "version": "0.1.4",
+        "name": "Walkway 0.1.4",
+        "url": "https://github.com/evannagle/walkway-releases/releases/download/v0.1.4/Walkway-0.1.4-macOS-arm64.zip",
+        "notes": "Signed and notarized Walkway preview for Apple silicon Macs.\n\nAdds a compact update indicator below the conversation: checking, downloading, ready, waiting to restart, and failure states. A thin animated line shows activity during checks and downloads. Failed updates offer Retry; ready updates offer Review.\n\nThe native updater does not expose a download percentage. This release uses an indeterminate indicator without an estimated percentage or time remaining.\n\nDownload the ZIP and replace Walkway.app after finishing active work. Signed installations can use **Walkway → Check for Update**. SHA256SUMS is included.\n",
+        "sha256": "ce3d497407f9094ec8baf5bafc930f07d8a8030d4e546fda87c8aa54a7d63216",
+        "size": 391871730
       }
     }
   ]
