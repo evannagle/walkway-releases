@@ -1,5 +1,5 @@
 {
-  "currentRelease": "0.1.4",
+  "currentRelease": "0.1.10",
   "releases": [
     {
       "version": "0.1.1",
@@ -32,6 +32,17 @@
         "notes": "Signed and notarized Walkway preview for Apple silicon Macs.\n\nAdds a compact update indicator below the conversation: checking, downloading, ready, waiting to restart, and failure states. A thin animated line shows activity during checks and downloads. Failed updates offer Retry; ready updates offer Review.\n\nThe native updater does not expose a download percentage. This release uses an indeterminate indicator without an estimated percentage or time remaining.\n\nDownload the ZIP and replace Walkway.app after finishing active work. Signed installations can use **Walkway → Check for Update**. SHA256SUMS is included.\n",
         "sha256": "ce3d497407f9094ec8baf5bafc930f07d8a8030d4e546fda87c8aa54a7d63216",
         "size": 391871730
+      }
+    },
+    {
+      "version": "0.1.10",
+      "updateTo": {
+        "version": "0.1.10",
+        "name": "Walkway 0.1.10",
+        "url": "https://github.com/evannagle/walkway-releases/releases/download/v0.1.10/Walkway-0.1.10-macOS-arm64.zip",
+        "notes": "# Walkway preview\n\nThis preview improves everyday desktop work, with local terminal sessions and more control over updates and the macOS menu.\n\n## Highlights\n\n- Open terminal sessions alongside conversations, switch between them without stopping the shell, and keep conversation drafts in place.\n- Configure supported macOS menu-bar actions through conversation.\n- Choose how update restarts are handled and see clearer update progress.\n\n## Fixes and refinements\n\n- Improvements to workspace startup, customization refresh and local installation handling.\n- Refinements to session controls, document previews and screenshot feedback.\n\n## Preview limitations\n\n- This download is for Apple Silicon Macs.\n- Terminal sessions end when their vault window closes or Walkway quits; shell processes are not restored after restarting the app.\n- Existing vault customizations remain local and may differ from the bundled interface.\n",
+        "sha256": "537e4324fc107fef7eb14f5a0b581d06659168731f070d84797913cc0bd9885d",
+        "size": 563547163
       }
     }
   ]
