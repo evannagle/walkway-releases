@@ -1,5 +1,5 @@
 {
-  "currentRelease": "0.1.10",
+  "currentRelease": "0.1.13",
   "releases": [
     {
       "version": "0.1.1",
@@ -43,6 +43,17 @@
         "notes": "# Walkway preview\n\nThis preview improves everyday desktop work, with local terminal sessions and more control over updates and the macOS menu.\n\n## Highlights\n\n- Open terminal sessions alongside conversations, switch between them without stopping the shell, and keep conversation drafts in place.\n- Configure supported macOS menu-bar actions through conversation.\n- Choose how update restarts are handled and see clearer update progress.\n\n## Fixes and refinements\n\n- Improvements to workspace startup, customization refresh and local installation handling.\n- Refinements to session controls, document previews and screenshot feedback.\n\n## Preview limitations\n\n- This download is for Apple Silicon Macs.\n- Terminal sessions end when their vault window closes or Walkway quits; shell processes are not restored after restarting the app.\n- Existing vault customizations remain local and may differ from the bundled interface.\n",
         "sha256": "537e4324fc107fef7eb14f5a0b581d06659168731f070d84797913cc0bd9885d",
         "size": 563547163
+      }
+    },
+    {
+      "version": "0.1.13",
+      "updateTo": {
+        "version": "0.1.13",
+        "name": "Walkway 0.1.13",
+        "url": "https://github.com/evannagle/walkway-releases/releases/download/v0.1.13/Walkway-0.1.13-macOS-arm64.zip",
+        "notes": "# Walkway preview\n\nThis preview adds clearer oversight of ongoing work and makes conversations, reviews and shared tables easier to use.\n\n## Highlights\n\n- A vault Companion provides work summaries, configurable check-ins, Run Now and Pause/Resume controls. Review and edit proposals to create, reopen, archive or organize sessions before applying them.\n- Follow activity in the Notifications feed with source links and response controls. Optional macOS alerts remain separate from in-app activity.\n- Work with shared vault tables using inline cell editing, typed columns, saved views and table artifacts alongside conversations.\n- Connect a private Telegram bot to a vault, with explicit pairing, durable message receipts and distinct incoming-message presentation.\n- Read compact task replies with links back to their source tasks.\n- Review changes with source-linked diffs and change-impact details, and collect feedback on images offered together before sending it.\n\n## Fixes and refinements\n\n- Load long conversation histories in bounded pages while preserving saved messages and keeping live approvals separate.\n- Keep long pasted text compact and open its full content for reading; display pasted conversations with speaker metadata.\n- Improve session hierarchy, activity indicators, suggested replies, file pickers, artifact tabs and screenshot feedback.\n- Improve saved-draft handling during frontend refresh and recovery of returning workspaces.\n\n## Preview limitations\n\n- This download is for Apple Silicon Macs.\n- Companion recommendations require review before session lifecycle changes are applied; recommendations do not approve new work.\n- History paging requires a compatible bundled runtime. An individual item exceeding the supported size reports an error without deleting saved history.\n- Terminal sessions end when their vault window closes or Walkway quits; shell processes are not restored after restarting the app.\n- Existing vault customizations and pinned backends remain local and may differ from the bundled interface; publishing this version does not activate them.\n- Live Telegram photo/reply feedback, typing/reaction observations and complete response timing remain under evaluation.\n- Compact task-reply presentation requires the matching backend. Native acceptance in existing customized workspaces remains pending.\n- Native alert visibility and the updated Stay Awake behavior still require live host acceptance.\n",
+        "sha256": "68e828f323b9f68f658efb0c2a1995ff332cf7a70fc2d6dbc9faf5a023af38db",
+        "size": 552552670
       }
     }
   ]
